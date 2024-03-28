@@ -4,9 +4,6 @@ import { Constant } from "../Utils/constant"
 import { login_PO } from "../Pages/logIn_PO"
 import { appointment_PO } from "../Pages/makeAppointment_PO"
 
-
-
-
 const logIn = new login_PO
 const credentials = new Constant
 const appointment1 = new appointment_PO
@@ -18,8 +15,6 @@ beforeEach("vist URL and LogIn click",()=>{
 })
 
 describe("Log In Functionality",()=>{
-    
-    
 
     it("Log in with valid Credentials",()=>{
 
